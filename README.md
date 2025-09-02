@@ -83,8 +83,8 @@ The database system is designed to be PocketBase-compatible and includes:
 
 1. **Clone repository**:
    ```bash
-   git clone <repository-url>
-   cd vieshare-axum-private
+   git clone https://github.com/khieu-dv/vieshare-axum
+   cd vieshare-axum
    ```
 
 2. **Install dependencies**:
