@@ -79,6 +79,8 @@ The database system is designed to be PocketBase-compatible and includes:
 - **Customers**: Store-specific customer management
 - **Notifications**: Email notification preferences
 
+### Build FrontEnd, please checkout [VieShare FrontEnd](https://github.com/khieu-dv/vieshare.git)
+
 ## Installation and Setup
 
 1. **Clone repository**:
