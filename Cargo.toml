@@ -1,0 +1,43 @@
+[package]
+name = "vieshare-axum"
+version = "0.1.0"
+authors = ["khieu-dv <nicolas.delvalle@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+config = "0.14.0"
+serde = { version = "1.0.204", features = ["derive"] }
+serde_json = "1.0.133"
+serde_derive = "1.0.152"
+futures = "0.3.30"
+thiserror = "1.0.63"
+axum = { version = "0.7.5" }
+tokio = { version = "1.39.1", features = ["full"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
+tower-http = { version = "0.6", features = [
+  "trace",
+  "compression-br",
+  "propagate-header",
+  "sensitive-headers",
+  "cors",
+] }
+chrono = { version = "0.4.38", features = ["serde"] }
+async-trait = "0.1.81"
+jsonwebtoken = "9.3.0"
+once_cell = "1.20.0"
+bcrypt = "0.15.1"
+sqlx = { version = "0.7", features = [ "runtime-tokio-rustls", "sqlite", "macros", "chrono" ] }
+anyhow = "1.0"
+validator = { version = "0.18.1", features = ["derive"] }
+mime = "0.3.17"
+bytes = "1.7.2"
+axum-extra = { version = "0.9.3", features = ["typed-header"] }
+
+uuid = { version = "1.0", features = ["v4"] }
+regex = "1.10.2"
+
+[dev-dependencies]
+assert-json-diff = "2.0.2"
+reqwest = { version = "0.12.4", features = ["json"] }
+pretty_assertions = "1.4.1"

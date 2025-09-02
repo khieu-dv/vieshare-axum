@@ -1,0 +1,15 @@
+{
+  "environment": "test",
+
+  "server": {
+    "port": 8088
+  },
+
+  "database": {
+    "uri": "sqlite://vieshare-axum-test.db"
+  },
+
+  "logger": {
+    "level": "error"
+  }
+}

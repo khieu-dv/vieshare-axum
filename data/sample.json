@@ -1,0 +1,50 @@
+{
+  "categories": [
+    {
+      "id": "cat_vieboards",
+      "name": "Vieboards",
+      "slug": "vieboards",
+      "description": "The best vieboards for all levels of viers."
+    },
+    {
+      "id": "cat_clothing",
+      "name": "Clothing", 
+      "slug": "clothing",
+      "description": "Skateboarding apparel and accessories."
+    }
+  ],
+  "subcategories": [
+    {
+      "id": "subcat_decks",
+      "name": "Decks",
+      "slug": "decks", 
+      "description": "Skateboard decks",
+      "category": "cat_vieboards"
+    },
+    {
+      "id": "subcat_wheels",
+      "name": "Wheels",
+      "slug": "wheels",
+      "description": "Skateboard wheels", 
+      "category": "cat_vieboards"
+    }
+  ],
+  "users": [
+    {
+      "id": "user_sample_123",
+      "email": "admin@vieshare.com",
+      "username": "admin",
+      "name": "VieShare Admin",
+      "verified": true
+    }
+  ],
+  "stores": [
+    {
+      "id": "store_sample_123",
+      "name": "VieShare Store",
+      "slug": "vieshare-store",
+      "description": "Official VieShare skateboarding store",
+      "user": "user_sample_123"
+    }
+  ]
+}
